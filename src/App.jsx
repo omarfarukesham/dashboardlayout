@@ -1,13 +1,12 @@
 // import { Button } from "alpha-ui-library";
 
-
+import Dashboard from "./Pages/Dashboard";
 
 const App = () => {
-
-
-  return <>
-    <h1 className="text-red-500">Hello</h1>
-  </>;
+  return (
+ 
+      <Dashboard />
+  );
 };
 
 export default App;
