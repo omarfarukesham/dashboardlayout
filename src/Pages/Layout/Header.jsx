@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -12,15 +13,15 @@ const Header = () => {
 
         {/* Navigation Section */}
         <nav className="space-x-4">
-          <a href="/" className="hover:text-gray-300">
+          <Link to="/" className="hover:text-gray-300">
             Home
-          </a>
-          <a href="/about" className="hover:text-gray-300">
+          </Link>
+          <Link to="/about" className="hover:text-gray-300">
             About
-          </a>
-          <a href="/contact" className="hover:text-gray-300">
+          </Link>
+          <Link to="/contact" className="hover:text-gray-300">
             Contact
-          </a>
+          </Link>
         </nav>
       </div>
     </header>
